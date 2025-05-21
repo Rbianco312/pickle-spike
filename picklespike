@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pickle Spike - The Ultimate Outdoor Game</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background: #f9f9f9;
+    }
+    header {
+      background-color: #16a085;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1534351590666-13e3e92c4b1f') center/cover no-repeat;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 4px #000;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2.5em;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      font-size: 2em;
+      color: #16a085;
+    }
+    .btn {
+      background-color: #e67e22;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .feature {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      flex: 1 1 300px;
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 30px 0;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pickle Spike</h1>
+    <p>The Ultimate Hybrid Game of Pickleball + Spikeball</p>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h2>Play Anywhere. Compete Everywhere.</h2>
+      <a href="#buy" class="btn">Get Pickle Spike</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>What is Pickle Spike?</h2>
+    <p>Pickle Spike is a fast-paced outdoor game that combines the bounce-and-smash action of Spikeball with the paddle-play strategy of Pickleball. It’s portable, exciting, and perfect for beaches, parks, and backyards.</p>
+  </section>
+
+  <section class="section">
+    <h2>Why You’ll Love It</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Dynamic Gameplay</h3>
+        <p>Combines paddles, bouncing nets, and teamwork for non-stop action.</p>
+      </div>
+      <div class="feature">
+        <h3>Portable Set</h3>
+        <p>Lightweight and easy to carry. Sets up in minutes anywhere you go.</p>
+      </div>
+      <div class="feature">
+        <h3>All Ages</h3>
+        <p>Great for teens, families, and competitive athletes alike.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="buy">
+    <h2>Get Your Set Today!</h2>
+    <p>Start your Pickle Spike journey with everything you need: paddles, net, and custom ball.</p>
+    <a href="#" class="btn">Buy Now - $59.99</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Pickle Spike Co. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
